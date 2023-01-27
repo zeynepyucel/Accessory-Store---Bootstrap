@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e9ecef !important;
+}
+
+.jumbotron {
+    margin-top: 90px; /* Margin top = 90 px because navbar height is 57 px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    display:block;
+    width: 96%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.productTitle {
+    color: #85586F;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: #f8ecd1c8;
+}
+
+.card {
+    margin: 0px 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 20px;
+    border: 2px;
+} 

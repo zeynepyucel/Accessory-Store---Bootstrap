@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar nav-tabs fixed-top navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <!--Navigation bar title inline CSS-->
+            <a class="navbar-brand" style="color: #DEB6AB; font-weight: bolder;" href="homepage.html">Accessory Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+                <!--Navigation bar items inline CSS-->
+
+                    <!--Homepage button-->
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #F8ECD1;" aria-current="page" href="homepage.html">Homepage</a>
+                    </li>
+
+                    <!--About Us button-->
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #F8ECD1;" href="about.html">About Us</a>
+                    </li>
+
+                    <!--Products button-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: #F8ECD1;" href="products.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" style="color: #F8ECD1;" href="products.html">All Accessories</a></li>
+                            <li><a class="dropdown-item" style="color: #F8ECD1;" href="rings.html">Rings</a></li>
+                            <li><a class="dropdown-item" style="color: #F8ECD1;" href="earrings.html">Earrings</a></li>
+                            <li><a class="dropdown-item" style="color: #F8ECD1;" href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navigation Bar End-->
+
+    <!--About Us-->
+    <div class="jumbotron col-sm-8">
+        <h1 class="jumbotronTitle display-4" style="color: #85586F; font-weight: 400;">About Us</h1>
+        <hr class="my-3">
+        <p style="text-align: center;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam hic aliquid quod quibusdam at consectetur, sequi iste fugiat. Odit culpa nesciunt eveniet doloremque delectus voluptatum iste soluta at assumenda facilis, voluptate molestiae eligendi quidem voluptas! Natus voluptate eligendi quis illum molestias asperiores omnis tempora nemo corrupti sapiente, vitae et, in fuga a deserunt odit fugit inventore possimus praesentium modi neque repellat. Unde reiciendis in reprehenderit ipsam tempora accusantium necessitatibus dolorum.
+        </p>
+
+        <!--Carousel Component for products pictures-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.pinimg.com/564x/bf/0b/49/bf0b493dfb9227670a36771d21091923.jpg" class="d-block" style="width: 400px; height: 400px">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/c0/de/61/c0de61e5ef8c035d23bfb8314defb100.jpg" class="d-block" style="width: 400px; height: 400px">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/5d/41/06/5d410618768f3076c49a38ec1bdcada7.jpg" class="d-block" style="width: 400px; height: 400px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" style="background-color: #f8ecd1b3;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" style="background-color: #f8ecd1b3;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!--Carousel Component End-->
+
+    </div>
+    <!--About Us End-->
+</body>
+</html>
